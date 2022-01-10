@@ -5,12 +5,12 @@
 }
 
 * {
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
 
 html, body {
-    background-color: #E8E8E8;
+  background-color: #E8E8E8;
 }
 
 a, a:hover {
