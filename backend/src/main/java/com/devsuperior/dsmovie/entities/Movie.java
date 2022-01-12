@@ -1,9 +1,12 @@
 package com.devsuperior.dsmovie.entities;
 
+import java.util.HashSet;
+import java.util.Set;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
@@ -19,6 +22,10 @@ public class Movie {
 	private Integer count;
 	private String image;
 	// FIM ATRIBUTOS
+
+	// REFERÊNCIA PARA TODO O CONJUNTO DE AVALIAÇÕES DE UM FILME.
+	@OneToMany(mappedBy = "id.movie")
+	private Set<Score> scores = new HashSet<>();
 
 	// CONSTRUTOR (VAZIO), PARA INSTANCIAR UM FILME SEM PASSAR VALOR PARA ELE.
 	public Movie() {
@@ -76,6 +83,10 @@ public class Movie {
 
 	public void setImage(String image) {
 		this.image = image;
+	}
+
+	public Set<Score> getScores() {
+		return scores;
 	}
 	// FIM GETTERS E SETTERS
 }
