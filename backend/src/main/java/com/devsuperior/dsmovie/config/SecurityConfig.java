@@ -13,10 +13,8 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
-/* 
- * Esse código está liberando o Back-End que está hospedado em um servidor,
- * que possa ser acessado pelo Front-End que está em outro lugar.
-*/
+// ESSE CÓDIGO ESTÁ LIBERANDO O BACK-END QUE ESTÁ HOSPEADO EM UM SERVIDOR,
+// QUE POSSA SER ACESSADO PELO FRONT-END QUE ESTÁ EM OUTRO SERVIDOR.
 
 @Configuration
 @EnableWebSecurity
@@ -30,7 +28,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		if (Arrays.asList(env.getActiveProfiles()).contains("test")) {
 			http.headers().frameOptions().disable();
 		}
-
 		http.cors().and().csrf().disable();
 		http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
 		http.authorizeRequests().anyRequest().permitAll();
