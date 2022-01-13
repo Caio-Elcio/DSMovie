@@ -57,7 +57,7 @@ footer p {
     list-style: none;
 }
 
-.sci li a {
+.sci li {
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -69,16 +69,6 @@ footer p {
     margin-right: 10px;
     text-decoration: none;
     border-radius: 10px;
-}
-
-.sci li a:hover {
-    color: white;
-    background-color: #4D41C0;
-    transition: 0.7s;
-}
-
-.sci li a .fa {
-    font-size: 20px;
 }
 
 .localizacao {
@@ -109,15 +99,6 @@ footer p {
 
 .contato .info li span {
     color: #999;
-}
-
-.contato .info li a {
-    color: #999;
-    text-decoration: none;
-}
-
-.contato .info li a:hover {
-    color: white;
 }
 
 .copyrightText {
