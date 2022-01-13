@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 :root {
-  --color-primary: #4D41C0;
+  --color-primary: #111;
 }
 
 * {
@@ -17,3 +17,17 @@ a, a:hover {
   text-decoration: none;
   color: unset;
 }
+
+/* ALÇA DE ROLAGEM ARRASTÁVEL */
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: black;
+}
+::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #4D41C0;
+}
+/* FIM ALÇA DE ROLAGEM ARRASTÁVEL */

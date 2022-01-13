@@ -18,11 +18,9 @@ function Form() {
                 <h3>{movie.title}</h3>
                 <form className="dsmovie-form">
                     <div className="form-group dsmovie-form-group">
-                        <label htmlFor="email">Informe seu email</label>
-                        <input autoComplete="off" type="email" className="form-control" id="email" />
-                    </div>
-                    <div className="form-group dsmovie-form-group">
-                        <label htmlFor="score">Informe sua avaliação</label>
+                        <label htmlFor="email">Informe seu email:</label>
+                        <input placeholder="exemplo@gmail.com" autoComplete="off" type="email" className="form-control" id="email" />
+                        <label htmlFor="score">Informe sua avaliação:</label>
                         <select className="form-control" id="score">
                             <option>1</option>
                             <option>2</option>
@@ -32,11 +30,11 @@ function Form() {
                         </select>
                     </div>
                     <div className="dsmovie-form-btn-container">
-                        <button type="submit" className="btn btn-primary dsmovie-btn">Salvar</button>
+                        <button type="submit" className="dsmovie-btn">Salvar</button>
                     </div>
                 </form>
                 <Link to="/">
-                    <button className="btn btn-primary dsmovie-btn mt-3">Cancelar</button>
+                    <button className="dsmovie-btn">Cancelar</button>
                 </Link>
             </div>
         </div>

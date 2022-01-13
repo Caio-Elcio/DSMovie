@@ -1,0 +1,153 @@
+footer {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    padding: 50px 100px;
+    background-color: #111;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .container-footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 17px;
+}
+
+footer .container-footer .sec {
+    margin-right: 30px;
+}
+
+footer .container-footer .sec.dsmovie {
+    width: 40%;
+}
+
+footer .container-footer h5 {
+    position: relative;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+footer .container-footer h5::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background-color: #4D41C0;
+}
+
+footer p {
+    color: #999;
+}
+
+.sci {
+    margin-top: 20px;
+    display: flex;
+    padding-left: 0;
+}
+
+.sci li {
+    list-style: none;
+}
+
+.sci li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #111;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.sci li a:hover {
+    color: white;
+    background-color: #4D41C0;
+    transition: 0.7s;
+}
+
+.sci li a .fa {
+    font-size: 20px;
+}
+
+.localizacao {
+    position: relative;
+    width: 25%;
+}
+
+.contato {
+    width: (35% - 60px);
+    margin-right: 0 !important;
+}
+
+.contato .info {
+    position: relative;
+    padding-left: 0;
+}
+
+.contato .info li {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.contato .info li span:nth-child(1) {
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.contato .info li span {
+    color: #999;
+}
+
+.contato .info li a {
+    color: #999;
+    text-decoration: none;
+}
+
+.contato .info li a:hover {
+    color: white;
+}
+
+.copyrightText {
+    color: white;
+    background-color: #181818;
+    padding: 1px 100px;
+    text-align: center;
+}
+
+#pFooter {
+    margin-top: 19px;
+}
+
+@media (max-width: 991px) {
+    footer {
+        padding: 40px;
+    }
+    footer .container-footer {
+        flex-direction: column;
+    }
+    footer .container-footer .sec {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    footer .container-footer .sec.sec.dsmovie,
+    .localizacao,
+    .contato {
+        width: 100%;
+    }
+    .copyrightText {
+        padding: 8px 40px;
+    }
+}

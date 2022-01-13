@@ -1,3 +1,4 @@
+import Footer from "components/Footer";
 import MovieCard from "components/MovieCard";
 import Pagination from "components/Pagination";
 
@@ -24,6 +25,7 @@ function Listing() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     );
 }
