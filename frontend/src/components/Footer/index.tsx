@@ -8,10 +8,11 @@ function Footer() {
                     <div className="sec dsmovie">
                         <h5>DSMovie</h5>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                            Ad numquam minima repellendus ullam, praesentium unde fuga
-                            sequi accusantium ex voluptas illum similique exercitationem expedita illo
-                            officiis perspiciatis quod sit sunt.
+                            Está em dúvida em qual filme ou série assistir?
+                        </p>
+                        <p>
+                            Saiba os melhores filmes e séries de acordo com as avaliações dos usuários,
+                            você também pode avaliar!
                         </p>
                     </div>
                     <div className="sec localizacao">
