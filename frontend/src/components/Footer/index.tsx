@@ -7,7 +7,8 @@ function Footer() {
                 <div className="container-footer">
                     <div className="sec dsmovie">
                         <h5>DSMovie</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                             Ad numquam minima repellendus ullam, praesentium unde fuga
                             sequi accusantium ex voluptas illum similique exercitationem expedita illo
                             officiis perspiciatis quod sit sunt.
