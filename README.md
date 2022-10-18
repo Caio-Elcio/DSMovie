@@ -1,6 +1,6 @@
-![Capa](https://github.com/Caio-Elcio/DSMovie/blob/main/capa1.png)
-![Capa](https://github.com/Caio-Elcio/DSMovie/blob/main/capa2.png)
-
+![image](https://user-images.githubusercontent.com/70724601/196305000-b360f16d-ad6c-4223-bd36-3f8b19e4ed43.png)
+![image](https://user-images.githubusercontent.com/70724601/196305110-939064d1-9e9e-43a4-802e-145e44db8ae4.png)
+![image](https://user-images.githubusercontent.com/70724601/196305322-b2154522-7c86-47b4-bf29-3a96dd99cbb2.png)
 <hr>
 
 <div align="center">
