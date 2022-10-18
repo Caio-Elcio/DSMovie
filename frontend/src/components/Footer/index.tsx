@@ -1,4 +1,4 @@
-import './styles.css';
+import "./styles.css";
 
 function Footer() {
     return (
@@ -10,17 +10,20 @@ function Footer() {
                         <p>
                             Está em dúvida em qual filme ou série assistir?
                         </p>
+
                         <p>
                             Saiba os melhores filmes e séries de acordo com as avaliações dos usuários,
                             você também pode avaliar!
                         </p>
                     </div>
+
                     <div className="sec localizacao">
                         <h5>Localização</h5>
                         <p><i className="fa fa-map-marker" aria-hidden="true"></i> Avenida Paulista, 12345 - Bela Vista, São
                             Paulo - SP, 01234-900
                         </p>
                     </div>
+
                     <div className="sec contato">
                         <h5>Contato</h5>
                         <ul className="info">

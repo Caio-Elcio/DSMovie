@@ -1,6 +1,6 @@
-import { ReactComponent as GithubIcon } from 'assets/img/github.svg';
-import { Link } from 'react-router-dom';
-import './styles.css';
+import { ReactComponent as GithubIcon } from "assets/img/github.svg";
+import { Link } from "react-router-dom";
+import "./styles.css";
 
 function Navbar() {
     return (

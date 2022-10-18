@@ -1,10 +1,10 @@
-import axios, { AxiosRequestConfig } from 'axios';
-import React, { useEffect, useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import { Movie } from 'types/movie';
-import { BASE_URL } from 'utils/requests';
-import { validateEmail } from 'utils/validate';
-import './styles.css';
+import { Link, useNavigate } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import axios, { AxiosRequestConfig } from "axios";
+import { validateEmail } from "utils/validate";
+import { BASE_URL } from "utils/requests";
+import { Movie } from "types/movie";
+import "./styles.css";
 
 type Props = {
     movieId: string;
