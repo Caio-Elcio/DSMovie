@@ -43,10 +43,6 @@
         <img  src="https://img.shields.io/badge/github-%23100000.svg?&style=for-the-badge&logo=github&logoColor=white&link=mailto:https://github.com/Caio-Elcio">
     </a>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-   <a href="mailto:eloyduartecaio@gmail.com">
-        <img src="https://img.shields.io/badge/gmail-F82020?&style=for-the-badge&logo=gmail&logoColor=white&link=mailto:eloyduartecaio@gmail.com">
-    </a>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://www.linkedin.com/in/caio-elcio-733426204?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BHl9x65e5Rs6%2BcNhh9Sfcdg%3D%3D">
         <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white&link=mailto:https://www.linkedin.com/in/caio-elcio-   733426204?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BOa8gs2CqTOaxCJJZjGtaRQ%3D%3D">
     </a>
